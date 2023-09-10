@@ -6,4 +6,5 @@ const friendsRouter = Router();
 friendsRouter.post("/", addFriend);
 friendsRouter.get("/", getFriends);
 
+
 export default friendsRouter
